@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+    background: linear-gradient(135deg, #e1f0af,#715c8a,#606069,#c1c2c9);
+}
+
+.cointainer{
+    width: 60%;
+    height: 87vh;
+    background:#ded9da;
+    margin: 3rem;
+    margin-left: 19rem;
+}
+.p{
+   padding-left: 1rem;
+}
+.s {
+    height: 2px;
+    border: 2px solid #a14cba;
+    margin-top: -5px;
+    border-radius: 16%;
+}
+.cre{
+    height: 2.4rem;
+    background-color:#8cd16f;
+    font-size: 24px;
+    padding-left: 27%;
+    padding-top: 4px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+input{
+    height: 2rem;
+    width:70%;
+    font-size: 18px;
+    border: 2px solid #a14cba;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    cursor: pointer;
+}
+input:focus {
+    border-color: #541652;
+    outline: none;
+
+}
+button{
+    height: 5vh;
+    width: 12%;
+    font-size: 18px;
+    background-color: #4f4e4c;
+    color: whitesmoke;
+    cursor: pointer;
+    margin-left: 2vh;
+}
+.ad{
+    background-color:#071252;
+    border-radius: 5%;
+}
+.del{
+    background-color:#ba0419;
+    border-radius: 5%;
+}
+.spt{
+    margin: 1vh;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+li {
+    font-size: 19px;
+    width: 100%;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 12px; 
+    margin-top: 5px; 
+    background-color:#e9eddf;
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+}
+
+.delete-btn {
+    background-color: #ba0419; 
+    color: white; 
+    border: none; 
+    padding: 1px 10px; 
+    font-size: 14px; 
+    border-radius: 3px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #ba0419; 
+}
+
+ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    max-width: 87%; 
+    margin: 1px auto;
+    margin-left:3rem;;
+}
+
+@media (max-width: 600px) {
+    .cointainer{
+        font-size: medium;
+        margin: 0;
+        width: 100%;
+        display: block;
+    }
+    input{
+        width: 98%;
+        font-size: 22px;
+        padding: 3px;
+    }
+    button{
+        width:30%;
+        margin-top:4px;
+        margin-left: 1px;
+    }
+    li {
+        flex-direction: column; 
+        align-items: flex-start;
+        padding: 8px; 
+        font-size: 20px;
+    }
+
+    .delete-btn {
+        margin-top: 8px;
+        width: 34%; 
+        padding: 6px; 
+        font-size: 18px;
+    }
+
+    ul {
+        max-width: 90%; 
+        margin: 5px; 
+    }
+    .cre{
+        padding-left: 12%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px){
+    .cointainer{
+        font-size:26px;
+        margin: 0;
+        width: 100%;
+        display: block;
+    }
+    .cre{
+        padding-left: 24%;
+        font-size:2.4rem;
+        height:64px;
+    }
+    input{
+        width: 95%;
+        font-size: 32px;
+        padding: 1.1rem;
+    }
+    button{
+        width:30%;
+        margin-top:5px;
+        margin-left: 1px;
+        font-size: 32px;
+    }
+    li {
+        font-size: 34px;
+    }
+
+    .delete-btn {
+        padding: 3px 8px; 
+        font-size: 34px; 
+    }
+
+    ul {
+        max-width: 89%; 
+    }
+}
+
+
